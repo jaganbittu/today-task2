@@ -1,0 +1,21 @@
+
+
+1)April 5th Midnight
+
+0 2 5 APR *
+
+2) 5 th of Every November,Jan,June if it is a Thursday
+0  0  5  nov,jan,june  Thu
+
+3)  At 05 and 27th minutes of 9,10,11 hours everyday
+5,27   9,10,11  *  *  *
+
+4)  15th second of 34 min. of 9th hour on 15th Aug
+* * * * * date>> /tmp/date.log
+34   9  15   Aug  *  sleep 15;  date>> /tmp/date.log
+
+5) Every midnight
+0 0 * * *
+
+6) Every Weekend ( Saturday night 11.59 )
+59  11  *  *  Sat 
